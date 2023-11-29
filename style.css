@@ -1,0 +1,700 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    /* overflow: hidden; */
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: linear-gradient(to right, #181c25, #2c3d66);
+    position: relative;
+}
+
+#nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    position: absolute;
+    z-index: 9999;
+    /* position: fixed; */
+}
+
+#nav img {
+    width: 140px;
+    padding: 20px 30px;
+}
+
+#navpart2 {
+    display: flex;
+    gap: 26px;
+}
+
+#navpart2 h4 {
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+}
+#navpart2 h4:hover{
+    color: rgb(233, 233, 233);
+    transition: all ease 0.5s;
+    font-size: 16.5px;
+    cursor: pointer;
+}
+#navpart2 :nth-child(1) {
+    border-bottom: 3px solid #fff;
+}
+
+#navpart3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#nav i {
+    font-size: 20px;
+    color: #fff;
+}
+
+#navpart3 h4 {
+    font-size: 15px;
+    color: #fff;
+    /* text-transform: uppercase; */
+}
+#navpart3 h4:hover{
+    cursor: pointer;
+    color: rgb(44, 44, 44);
+    background: linear-gradient(to right, rgb(215, 235, 35), rgb(37, 184, 122));
+    border-radius: 7px;
+    width: 55px;
+    height: 20px;
+font-size: 16.5px;
+transition: all ease 0.5s;
+
+}
+#nav>i {
+    color: #fff;
+    font-size: 22px;
+    background-color: #ffffff74;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#part1 {
+    position: absolute;
+    width: 38%;
+    top: 25%;
+    left: 20%;
+    z-index: 99;
+}
+
+#part1 p {
+    width: 50%;
+    font-size: 11px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+#part1 h1 {
+    font-size: 35px;
+    color: #fff;
+}
+
+#part1 h2 {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+#part1 i {
+    color: gold;
+    font-size: 18px;
+    margin-top: 60px;
+    margin-left: 3px;
+}
+
+#main>img {
+    position: absolute;
+    width: 635px;
+    left: 37%;
+    top: 22%;
+    transform: rotate(-30deg);
+    filter: brightness(1.5);
+    z-index: 99;
+}
+
+#right i {
+    color: #fff;
+    position: absolute;
+    font-size: 40px;
+    right: 18%;
+    bottom: 16%;
+    z-index: 99;
+}
+
+#right h5 {
+    font-size: 15px;
+    color: #fff;
+    right: 11.5%;
+    bottom: 20%;
+    position: absolute;
+    z-index: 99;
+}
+
+#right h4 {
+    font-size: 30px;
+    color: #fff;
+    right: 4%;
+    bottom: 15%;
+    position: absolute;
+    z-index: 99;
+}
+
+#right {
+    height: 100%;
+    background: linear-gradient(to right, rgb(239, 9, 63), rgb(230, 55, 96));
+    width: 45%;
+    left: 55%;
+    position: absolute;
+    clip-path: polygon(11% 0, 100% 0, 100% 100%, 50% 100%);
+}
+
+#main>h1 {
+    top: 20%;
+    position: absolute;
+    font-size: 300px;
+    white-space: nowrap;
+    left: -10%;
+    color: #00000071;
+}
+#page2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+}
+#shubham{
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(to top, rgb(240, 240, 240),rgb(189, 189, 189));
+    position: relative;
+    display: flex;
+}
+#shubham h2{
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ position: absolute;
+top: 0%;
+left: 46.5%;
+color: #24304C;
+}
+#box1{
+    width: 15%;
+    height: 85%;
+    /* background-color: green; */
+    position: absolute;
+    top: 11%;
+    left: 2%;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 5px;
+}
+#box1 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -25%;
+}
+#box1 img:hover{
+    width: 104%;
+    height: 104%;
+    cursor: pointer;
+}
+#box1 h3{
+    font-size: 18px;
+    color: rgb(116, 116, 116);
+    position: absolute;
+    bottom: 15%;
+    left: 28%;
+}
+#box1 h4{
+font-size: 22px;
+color: rgb(37, 37, 37);
+position: absolute;
+bottom: 3%;
+left: 17%;
+}
+#box2{
+    width: 15%;
+    height: 85%;
+    /* background-color: green; */
+    position: absolute;
+    top: 11%;
+    left: 18%;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 5px;
+}
+#box2 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -25%;
+}
+#box2 img:hover{
+    width: 104%;
+    height: 104%;
+    cursor: pointer;
+}
+#box2 h3{
+    font-size: 18px;
+    color: rgb(116, 116, 116);
+    position: absolute;
+    bottom: 15%;
+    left: 28%;
+}
+#box2 h4{
+font-size: 22px;
+color: rgb(37, 37, 37);
+position: absolute;
+bottom: 3%;
+left: 17%;
+}
+#box3{
+    width: 15%;
+    height: 85%;
+    /* background-color: green; */
+    position: absolute;
+    top: 11%;
+    left: 34%;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 5px;
+}
+#box3 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -25%;
+}
+#box3 img:hover{
+    width: 104%;
+    height: 104%;
+    cursor: pointer;
+}
+#box3 h3{
+    font-size: 18px;
+    color: rgb(116, 116, 116);
+    position: absolute;
+    bottom: 15%;
+    left: 14%;
+}
+#box3 h4{
+font-size: 22px;
+color: rgb(37, 37, 37);
+position: absolute;
+bottom: 3%;
+left: 17%;
+}
+#box4 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -25%;
+}
+#box4 img:hover{
+    width: 104%;
+    height: 104%;
+    cursor: pointer;
+}
+#box4 h3{
+    font-size: 18px;
+    color: rgb(116, 116, 116);
+    position: absolute;
+    bottom: 15%;
+    left: 8%;
+}
+#box4 h4{
+font-size: 22px;
+color: rgb(37, 37, 37);
+position: absolute;
+bottom: 3%;
+left: 17%;
+}
+#box4{
+    width: 15%;
+    height: 85%;
+    /* background-color: green; */
+    position: absolute;
+    top: 11%;
+    left: 50%;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 5px;
+}
+#box5{
+    width: 15%;
+    height: 85%;
+    /* background-color: green; */
+    position: absolute;
+    top: 11%;
+    left: 66%;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 5px;
+}
+#box5 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -25%;
+}
+#box5 img:hover{
+    width: 104%;
+    height: 104%;
+    cursor: pointer;
+}
+#box5 h3{
+    font-size: 18px;
+    color: rgb(116, 116, 116);
+    position: absolute;
+    bottom: 15%;
+    left: 8%;
+}
+#box5 h4{
+font-size: 22px;
+color: rgb(37, 37, 37);
+position: absolute;
+bottom: 3%;
+left: 17%;
+}
+#box6{
+    width: 15%;
+    height: 85%;
+    /* background-color: green; */
+    position: absolute;
+    top: 11%;
+    left: 82%;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 5px;
+}
+#box6 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -25%;
+}
+#box6 img:hover{
+    width: 104%;
+    height: 104%;
+    cursor: pointer;
+}
+#box6 h3{
+    font-size: 18px;
+    color: rgb(116, 116, 116);
+    position: absolute;
+    bottom: 15%;
+    left: 9%;
+}
+#box6 h4{
+font-size: 22px;
+color: rgb(37, 37, 37);
+position: absolute;
+bottom: 3%;
+left: 17%;
+}
+
+#satyam{
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(to top, rgb(240, 240, 240),rgb(189, 189, 189));
+    position: absolute;
+    top: 143%;
+    display: flex;
+}
+#satyam h2{
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ position: absolute;
+top: 0%;
+left: 46.5%;
+color: #24304C;
+}
+#page3{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+}
+#rahul{
+    width: 40%;
+    height: 100%;
+    background: linear-gradient(to left, rgb(240, 240, 240),rgb(189, 189, 189));
+    position: absolute;
+    top: -17%;
+    left: 1%;
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+}
+#bin1{
+    width: 42%;
+    height: 45%;
+    position: absolute;
+    top: 7%;
+    left: 6%;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 5px;
+}
+#bin1 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -17%;
+}
+#bin1 img:hover{
+    cursor: pointer;
+    width: 104%;
+    height: 104%;
+}
+#bin1 h3{
+    font-size: 19px;
+    color: rgb(116, 116, 116);
+    position: absolute;
+    bottom: 18%;
+    left: 19%;
+}
+#bin1 h4{
+font-size: 18px;
+color: rgb(75, 179, 49);
+position: absolute;
+bottom: 8%;
+left: 22%;
+}
+#bin1 h5{
+    font-size: 15px;
+    color: rgb(33, 202, 165);
+    position: absolute;
+    bottom: 1%;
+    left: 13.5%;
+}
+#bin2{
+    width: 42%;
+    height: 45%;
+    position: absolute;
+    top: 7%;
+    left: 51%;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 5px;
+}
+#bin2 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -17%;
+}
+#bin2 img:hover{
+    cursor: pointer;
+    width: 104%;
+    height: 104%;
+}
+#bin2 h3{
+    font-size: 19px;
+    color: rgb(116, 116, 116);
+    position: absolute;
+    bottom: 18%;
+    left: 10%;
+}
+#bin2 h4{
+font-size: 18px;
+color: rgb(75, 179, 49);
+position: absolute;
+bottom: 8%;
+left: 22%;
+}
+#bin2 h5{
+    font-size: 15px;
+    color: rgb(33, 202, 165);
+    position: absolute;
+    bottom: 1%;
+    left: 13.5%;
+}
+#bin3{
+    width: 42%;
+    height: 45%;
+    position: absolute;
+    top: 54%;
+    left: 6%;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 5px;
+}
+#bin3 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -17%;
+}
+#bin3 img:hover{
+    cursor: pointer;
+    width: 104%;
+    height: 104%;
+}
+#bin3 h3{
+    font-size: 19px;
+    color: rgb(116, 116, 116);
+    position: absolute;
+    bottom: 18%;
+    left: 22.2%;
+}
+#bin3 h4{
+font-size: 18px;
+color: rgb(75, 179, 49);
+position: absolute;
+bottom: 8%;
+left: 22%;
+}
+#bin3 h5{
+    font-size: 15px;
+    color: rgb(33, 202, 165);
+    position: absolute;
+    bottom: 1%;
+    left: 13.5%;
+}
+#bin4{
+    width: 42%;
+    height: 45%;
+    position: absolute;
+    top: 54%;
+    left: 51%;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 5px;
+}
+#bin4 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -17%;
+}
+#bin4 img:hover{
+    cursor: pointer;
+    width: 104%;
+    height: 104%;
+}
+#bin4 h3{
+    font-size: 19px;
+    color: rgb(116, 116, 116);
+    position: absolute;
+    bottom: 18%;
+    left: 5%;
+    
+}
+#bin4 h4{
+font-size: 18px;
+color: rgb(75, 179, 49);
+position: absolute;
+bottom: 8%;
+left: 22%;
+}
+#bin4 h5{
+    font-size: 15px;
+    color: rgb(33, 202, 165);
+    position: absolute;
+    bottom: 1%;
+    left: 13.5%;
+}
+#lefs  h2{
+    font-size: 20px;
+    position: absolute;
+    top: 1%;
+    left: 6%;
+    color: #2c3d66;
+}
+#page3 #righ{
+    width: 57%;
+    height: 80%;
+    background: linear-gradient(to top, rgb(179, 194, 166),rgb(179, 173, 173));
+    position: absolute;
+    right: 1%;
+    top: 186.5%;
+    border-radius: 5px;
+}
+#sbin h1{
+    font-size: 42px;
+    font-weight: 700;
+    color: #253c74;
+    position: absolute;
+    top: 17%;
+    right: 8%;
+}
+#sbin h2{
+    font-size: 20px;
+    font-weight: 650;
+    color: rgb(194, 44, 199);
+    position: absolute;
+    top: 30%;
+    right: 7.8%;
+}
+
+#righ button{
+    font-size: 15px;
+    width: 140px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid rgb(88, 88, 88);
+    font-weight: 700;
+    position: absolute;
+    bottom: 30%;
+    color: grey;
+    right: 10%;
+    border-color: #e0e0e0;
+}
+#righ button:hover{
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to right, rgb(142, 179, 112), rgb(247, 245, 132));
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+.rohit{
+    font-size: 13px;
+    width: 300px;
+    position: absolute;
+    bottom: 42%;
+    right: 6.5%;
+    color: #2c3d66;
+}
+#sbin h3{
+    font-size: 20px;
+    position: absolute;
+    bottom: 20%;
+    right: 25%;
+    text-transform: uppercase;
+    color: chocolate;
+}
+.shubhamsingh{
+    font-size: 25px;
+position: absolute;
+bottom: 15%;
+right: 18%;
+text-transform: uppercase;
+color: rgb(31, 206, 89);
+background: linear-gradient(to bottom, red, green);
+border-radius: 5px;
+}
+.shubhamsingh:hover{
+    color: rgb(47, 240, 247);
+    background: rgb(37, 37, 37);
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
